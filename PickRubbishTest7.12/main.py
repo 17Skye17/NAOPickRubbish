@@ -265,7 +265,7 @@ class StateChange(threading.Thread):
                         print 'Torso_Y', Torso_Y
 time.sleep(1)
 threads=[]
-IP="169.254.233.176"
+IP="127.0.0.1"
 PORT=9559
 Focus.Initialize(IP, PORT)
 # Create new threads
